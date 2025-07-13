@@ -9,7 +9,7 @@ public class TC_001 {
 	public void Testcase1(){
 		System.setProperty("webdriver.chrome.driver","./Driver/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("www.facebook.com");
+		driver.get("http://www.facebook.com");
 		driver.findElementById("email").sendKeys("Hello");
 		driver.findElementById("pass").sendKeys("Hello");
 		driver.quit();
